@@ -1,0 +1,195 @@
+.cards_main-div .card_hed_div .card {
+    width: 22rem;
+    border-radius: 10px;
+}
+
+.singlepage_btn .single_checkbtn {
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 8px 20px;
+    width: 60%;
+}
+
+.singlepage_btn .single_checkbtn:hover {
+    box-shadow: 0px 0px 15px 0px #0ef;
+    background-color: #081c29;
+    color: white;
+}
+
+.main2_div .row_btn .more_products {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.main2_div .row_btn .more_products:hover {
+    box-shadow: 0px 0px 15px 0px #0ef;
+    background-color: #081c29;
+    color: white;
+}
+
+
+/* singleproducts page */
+
+.first_div,
+.second_div {
+    margin-top: 5%;
+}
+
+.first_div_image {
+    border: 2px solid #0ef;
+    border-radius: 10px;
+}
+
+.first_div_image:hover {
+    box-shadow: 0px 0px 20px 0px #0ef;
+    transition: 0.8s;
+    background-color: #081c29;
+}
+
+.rating_reviews:hover {
+    box-shadow: 0px 0px 15px 0px #0ef;
+    transition: 0.8s;
+}
+
+.cards_main-div .card_hed_div .card:hover {
+    box-shadow: 0px 0px 15px 0px #dc143c;
+    background-color: #081c29;
+    color: white;
+}
+
+.rating_page .rating_reviews {
+    border: 2px solid #0ef;
+    border-radius: 10px;
+    margin: 10px 0px;
+    padding: 20px;
+}
+
+.add-tocard button {
+    border: 2px solid #0ef;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.add-tocard button:hover {
+    background-color: #081c29;
+    color: white;
+    box-shadow: 0px 0px 16px 0px #0ef;
+}
+
+
+/* e commercer */
+
+.cards_main-div .card_hed_div .card {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+/* Model css  */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1050;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    outline: 0;
+    background: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+}
+
+.modal.show {
+    display: flex;
+}
+
+.modal-content {
+    background: rgb(82 175 246) !important;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.modal-body {
+    padding: 15px;
+}
+
+.close_button {
+    padding: 0px 20px;
+    background: transparent;
+    border: none !important;
+    font-size: 30px;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 0;
+    border-top: 1px solid #dee2e6;
+}
+
+/* memory game css */
+.game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.card_cards {
+    height: 40px;
+    width: 40px;
+    background-color: lightgreen;
+    padding: 20px;
+}
+
+.show {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide {
+    font-size: 0;
+}
+
+.remove {
+    visibility: hidden;
+}
+
+.play_game {
+    background-color: lightgreen;
+    width: 50%;
+    border: none;
+    border-radius: 6px;
+    font-size: 22px;
+}
+
+.play_Again {
+    background-color: lightgreen;
+    width: 95%;
+    border: none;
+    border-radius: 6px;
+}
